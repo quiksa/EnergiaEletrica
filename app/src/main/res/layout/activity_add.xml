@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.m89889.energiaeletrica.addActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Codigo Cliente" />
+
+    <EditText
+        android:id="@+id/txtcodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereço" />
+
+    <EditText
+        android:id="@+id/txtendereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numero" />
+
+    <EditText
+        android:id="@+id/txtnumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leitura KWh" />
+
+    <EditText
+        android:id="@+id/txtleitura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/btngravar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gravarleitura"
+        android:text="GRAVAR LEITURA" />
+
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="volar"
+        android:text="Voltar" />
+
+</LinearLayout>
